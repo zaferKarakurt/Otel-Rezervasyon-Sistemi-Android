@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "447447521861",
+    "firebase_url": "https://asdd-c8389-default-rtdb.firebaseio.com",
+    "project_id": "asdd-c8389",
+    "storage_bucket": "asdd-c8389.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447447521861:android:b406bb33331bdb067ce12c",
+        "android_client_info": {
+          "package_name": "com.zafer.deneme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgdAeS5EEmg2DogkEwJDK4VlCf84IU2Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447447521861:android:01d2dc3502de1fe97ce12c",
+        "android_client_info": {
+          "package_name": "com.zafer.otelmaris"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgdAeS5EEmg2DogkEwJDK4VlCf84IU2Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

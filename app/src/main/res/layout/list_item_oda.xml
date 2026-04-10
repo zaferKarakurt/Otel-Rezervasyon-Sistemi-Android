@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvOdaNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ODA #101"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvOdaTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Çift Kişilik Deluxe"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOdaNo" />
+
+        <TextView
+            android:id="@+id/tvFiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2500.00 TL"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDurum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Müsait / Temiz"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFiyat" />
+
+        <TextView
+            android:id="@+id/tvTemizlikGuncelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEMİZLE"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_background_green"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOdaTip"
+            />
+        <TextView
+            android:id="@+id/tvSil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SİL"
+            android:padding="8dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="#FFCDD2"
+            android:textStyle="bold"
+            android:layout_marginBottom="-8dp"
+            android:layout_marginEnd="-8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
